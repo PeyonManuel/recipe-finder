@@ -141,6 +141,13 @@
 }
 
 @media only screen and (min-resolution: 300dpi) {
+    .usedingredients {
+        height: 1.5rem;
+    }
+
+    .misingredients {
+        height: 3rem;
+    }
     .recipewrapper {
         height: 12.9rem;
     }
