@@ -91,16 +91,15 @@ const RecipeList = () => {
                         } = recipe;
 
                         return (
-                            <div
-                                className='recipewrapper'
-                                onClick={() => redirectToRecipe(id)}
-                            >
+                            <div className='recipewrapper'>
                                 <span key={i} className='recipe'>
                                     <div className='imgdiv'>
                                         <img src={image} alt='' />
                                     </div>
 
-                                    <h4>{title}</h4>
+                                    <h4 onClick={() => redirectToRecipe(id)}>
+                                        {title}
+                                    </h4>
                                     {missedIngredients.length > 0 ? (
                                         <>
                                             <span className='usedingredients ingr'>

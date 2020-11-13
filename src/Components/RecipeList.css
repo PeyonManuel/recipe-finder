@@ -140,13 +140,32 @@
     opacity: 0;
 }
 
-@media only screen and (min-resolution: 300dpi) and (orientation: portrait) {
+@media only screen and (min-resolution: 300dpi) {
+    .startText {
+        margin-top: 8rem;
+    }
     .usedingredients {
         height: 1.6rem;
     }
     .misingredients {
         height: 2.8rem;
     }
+}
+
+@media only screen and (min-resolution: 300dpi) and (orientation: landscape) {
+    .recipewrapper {
+        height: 14rem;
+    }
+    .recipe {
+        width: 12rem;
+    }
+    .imgdiv {
+        width: 11rem;
+        height: 9rem;
+    }
+}
+
+@media only screen and (min-resolution: 300dpi) and (orientation: portrait) {
     .recipewrapper {
         height: 22rem;
     }
