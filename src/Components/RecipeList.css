@@ -144,18 +144,17 @@
     .usedingredients {
         height: 1.6rem;
     }
-
     .misingredients {
-        height: 2.9rem;
+        height: 2.8rem;
     }
     .recipewrapper {
-        height: 12.5rem;
+        height: 20rem;
     }
     .recipe {
-        width: 11.5rem;
+        width: 19rem;
     }
     .imgdiv {
-        width: 10.5rem;
-        height: 7.5rem;
+        width: 18rem;
+        height: 17rem;
     }
 }
