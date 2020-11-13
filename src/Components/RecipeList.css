@@ -160,20 +160,20 @@
         width: 12rem;
     }
     .imgdiv {
-        width: 11rem;
+        width: 12rem;
         height: 9rem;
     }
 }
 
 @media only screen and (min-resolution: 300dpi) and (orientation: portrait) {
     .recipewrapper {
-        height: 20rem;
+        height: 21rem;
     }
     .recipe {
         width: 20rem;
     }
     .imgdiv {
-        width: 19rem;
+        width: 21rem;
         height: 17rem;
     }
 }
