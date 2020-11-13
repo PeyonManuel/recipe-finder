@@ -142,13 +142,13 @@
 
 @media (max-width: 624px) {
     .recipewrapper {
-        height: 13.9rem;
+        height: 12.9rem;
     }
     .recipe {
-        width: 13rem;
+        width: 12rem;
     }
     .imgdiv {
-        width: 12rem;
-        height: 9rem;
+        width: 11rem;
+        height: 8rem;
     }
 }
