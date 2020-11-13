@@ -154,26 +154,26 @@
 
 @media only screen and (min-resolution: 300dpi) and (orientation: landscape) {
     .recipewrapper {
-        height: 17rem;
+        height: 8.5rem;
     }
     .recipe {
-        width: 17rem;
+        width: 8.5rem;
     }
     .imgdiv {
-        width: 16rem;
-        height: 12rem;
+        width: 8rem;
+        height: 6rem;
     }
 }
 
 @media only screen and (min-resolution: 300dpi) and (orientation: portrait) {
     .recipewrapper {
-        height: 17rem;
+        height: 25.5rem;
     }
     .recipe {
-        width: 17rem;
+        width: 25.5rem;
     }
     .imgdiv {
-        width: 16rem;
-        height: 12rem;
+        width: 24rem;
+        height: 18rem;
     }
 }
