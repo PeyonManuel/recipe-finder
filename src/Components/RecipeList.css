@@ -140,7 +140,7 @@
     opacity: 0;
 }
 
-@media only screen and (min-resolution: 300dpi) {
+@media only screen and (min-resolution: 300dpi) and (orientation: portrait) {
     .usedingredients {
         height: 1.6rem;
     }
