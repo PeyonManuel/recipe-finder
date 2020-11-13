@@ -140,7 +140,7 @@
     opacity: 0;
 }
 
-@media (max-width: 624px) {
+@media only screen and (max-width: 624px) {
     .recipewrapper {
         height: 12.9rem;
     }
