@@ -142,11 +142,11 @@
 
 @media only screen and (min-resolution: 300dpi) {
     .usedingredients {
-        height: 1.5rem;
+        height: 1.6rem;
     }
 
     .misingredients {
-        height: 3rem;
+        height: 2.9rem;
     }
     .recipewrapper {
         height: 12.5rem;
