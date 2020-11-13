@@ -164,7 +164,8 @@
         height: 9rem;
     }
     .recipewrapper > span > h4 {
-        top: -2rem;
+        position: absolute;
+        top: -1rem;
     }
 }
 
