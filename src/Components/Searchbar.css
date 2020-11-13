@@ -79,10 +79,6 @@
     font-family: 'Varela Round', sans-serif;
 }
 
-.autocontainer > span:hover {
-    background-color: rgba(128, 128, 128, 0.467);
-}
-
 .alert {
     position: absolute;
     top: 12rem;

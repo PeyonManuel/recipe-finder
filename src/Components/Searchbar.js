@@ -138,6 +138,7 @@ const Searchbar = () => {
                                     key={i}
                                     onClick={() => handleAutocontainer(op.name)}
                                     className={className}
+                                    onMouseOver={() => setSelectedOption(i)}
                                 >
                                     {op.name}
                                 </span>
