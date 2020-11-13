@@ -150,9 +150,6 @@
     .misingredients {
         height: 2.75rem;
     }
-    .recipewrapper > span > h4 {
-        top: -0.2rem;
-    }
 }
 
 @media only screen and (min-resolution: 300dpi) and (orientation: landscape) {
@@ -165,6 +162,9 @@
     .imgdiv {
         width: 12rem;
         height: 9rem;
+    }
+    .recipewrapper > span > h4 {
+        top: -0.5rem;
     }
 }
 
