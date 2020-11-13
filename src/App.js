@@ -1,26 +1,29 @@
 import React from 'react';
-import logo from './logo.svg';
+import Header from './Components/Header';
+import Searchbar from './Components/Searchbar';
+import RecipeList from './Components/RecipeList';
+import GlobalReducer from './GlobalReducer';
+
 import './App.css';
 
+require('dotenv').config();
+
+export const GlobalContext = React.createContext();
+
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    const defaultState = {
+        ingredients: [],
+    };
+
+    const [state, dispatch] = React.useReducer(GlobalReducer, defaultState);
+
+    return (
+        <GlobalContext.Provider value={{ dispatch: dispatch, state: state }}>
+            <Header />
+            <Searchbar />
+            <RecipeList />
+        </GlobalContext.Provider>
+    );
 }
 
 export default App;
