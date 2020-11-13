@@ -154,14 +154,14 @@
 
 @media only screen and (min-resolution: 300dpi) and (orientation: landscape) {
     .recipewrapper {
-        height: 8.5rem;
+        height: 12.75rem;
     }
     .recipe {
-        width: 8.5rem;
+        width: 12.75rem;
     }
     .imgdiv {
-        width: 8rem;
-        height: 6rem;
+        width: 12rem;
+        height: 9rem;
     }
 }
 
