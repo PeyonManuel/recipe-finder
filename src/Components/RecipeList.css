@@ -167,7 +167,7 @@
 
 @media only screen and (min-resolution: 300dpi) and (orientation: portrait) {
     .recipewrapper {
-        height: 20rem;
+        height: 21rem;
     }
     .recipe {
         width: 18rem;
