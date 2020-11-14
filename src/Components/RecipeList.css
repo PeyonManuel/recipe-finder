@@ -7,7 +7,6 @@
 }
 
 .recipelist {
-    padding: 5vw;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -140,6 +139,22 @@
     border-radius: 6px;
     transition: 0.5s;
     opacity: 0;
+}
+
+@media screen and (max-width: 624px) {
+    .recipewrapper {
+        height: 12.75rem;
+    }
+    .recipe {
+        width: 12.75rem;
+    }
+    .imgdiv {
+        width: 12rem;
+        height: 9rem;
+    }
+    .recipewrapper > span > h4 {
+        font-size: 14px;
+    }
 }
 
 @media screen and (max-width: 480px) and (orientation: portrait) {
