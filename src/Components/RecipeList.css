@@ -182,4 +182,7 @@
         width: 19rem;
         height: 14.5rem;
     }
+    .recipewrapper > span > h4 {
+        font-size: 30px;
+    }
 }
