@@ -144,14 +144,14 @@
 
 @media screen and (max-width: 480px) and (orientation: portrait) {
     .recipewrapper {
-        height: 30rem;
+        height: 90vw;
     }
     .recipe {
-        width: 12.75rem;
+        width: 90vw;
     }
     .imgdiv {
-        width: 12rem;
-        height: 9rem;
+        width: 85vw;
+        height: 65vw;
     }
     .recipewrapper > span > h4 {
         position: relative;
