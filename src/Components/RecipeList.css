@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
 .startText {
-    margin-top: 15rem;
+    margin-top: 20vh;
     text-align: center;
     font-family: 'Indie Flower', cursive;
 }
