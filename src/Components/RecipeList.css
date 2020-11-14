@@ -142,9 +142,9 @@
     opacity: 0;
 }
 
-@media screen and (device-width: 320px) and (device-height: 640px) and (orientation: portrait) {
+@media screen and (max-width: 480px) and (orientation: portrait) {
     .recipewrapper {
-        height: 12.75rem;
+        height: 30rem;
     }
     .recipe {
         width: 12.75rem;
