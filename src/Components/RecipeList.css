@@ -7,11 +7,11 @@
 }
 
 .recipelist {
-    padding: 2rem;
+    padding: 5vw;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    width: 100vw;
+    width: 90vw;
     gap: 1rem;
     align-items: center;
     margin-bottom: 9rem;
@@ -152,9 +152,5 @@
     .imgdiv {
         width: 85vw;
         height: 65vw;
-    }
-    .recipewrapper > span > h4 {
-        position: relative;
-        top: -0.3rem;
     }
 }
