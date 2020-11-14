@@ -176,7 +176,7 @@
     }
 }
 
-@media only screen and (min-resolution: 300dpi) and (orientation: landscape) {
+@media only screen and (max-width: 768px) and (orientation: landscape) {
     .recipewrapper {
         height: 12.75rem;
     }
@@ -193,7 +193,7 @@
     }
 }
 
-@media only screen and (min-resolution: 300dpi) and (orientation: portrait) {
+@media only screen and (max-width: 480px) and (orientation: portrait) {
     .recipewrapper {
         height: 22.5rem;
     }
