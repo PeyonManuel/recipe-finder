@@ -142,15 +142,37 @@
     opacity: 0;
 }
 
+@media only screen and (max-width: 624px) {
+    .recipewrapper {
+        height: 12.75rem;
+    }
+    .recipe {
+        width: 12.75rem;
+    }
+    .imgdiv {
+        width: 12rem;
+        height: 9rem;
+    }
+    .recipewrapper > span > h4 {
+        position: relative;
+        top: -0.5rem;
+    }
+}
+
 @media only screen and (min-resolution: 300dpi) {
-    .startText {
-        margin-top: 8rem;
+    .recipewrapper {
+        height: 12.75rem;
     }
-    .usedingredients {
-        height: 1.6rem;
+    .recipe {
+        width: 12.75rem;
     }
-    .misingredients {
-        height: 2.75rem;
+    .imgdiv {
+        width: 12rem;
+        height: 9rem;
+    }
+    .recipewrapper > span > h4 {
+        position: relative;
+        top: -0.3rem;
     }
 }
 
