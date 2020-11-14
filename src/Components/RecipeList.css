@@ -173,16 +173,16 @@
 
 @media only screen and (min-resolution: 300dpi) and (orientation: portrait) {
     .recipewrapper {
-        height: 20.5rem;
+        height: 22.5rem;
     }
     .recipe {
-        width: 20.5rem;
+        width: 22.5rem;
     }
     .imgdiv {
-        width: 19rem;
-        height: 14.5rem;
+        width: 21rem;
+        height: 16rem;
     }
     .recipewrapper > span > h4 {
-        font-size: 30px;
+        font-size: 26px;
     }
 }
