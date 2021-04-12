@@ -1,2 +1,1 @@
-Recipe finder site, done 100% by me.
-99% done.
+Recipe finder site 99% done.
