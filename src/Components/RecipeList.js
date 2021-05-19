@@ -11,6 +11,7 @@ const RecipeList = () => {
     const firstRenderIngredients = useRef(true);
     const firstRenderNumbers = useRef(true);
     const spoonacularKey = process.env.REACT_APP_SPOONACULAR_API_KEY;
+    console.log(spoonacularKey)
     const handleLoadMoreClick = () => {
         document.getElementById('loading').style.opacity = 1;
         setTimeout(
