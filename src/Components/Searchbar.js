@@ -42,6 +42,7 @@ const Searchbar = () => {
 
     const handleIngredientsClick = (delingr) => {
         dispatch({ type: 'REMOVE_INGREDIENT', payload: delingr });
+
     };
 
     useEffect(() => {
@@ -113,6 +114,12 @@ const Searchbar = () => {
                 });
         } else setOptions([]);
     }, [search]);
+
+    useEffect(() => {
+                if(state.ingredients.length === 0){
+            setDisplayIngr(false)
+        }
+    }, [state.ingredients])
 
     return (
         <div className='searchcomp'>
