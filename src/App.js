@@ -4,8 +4,6 @@ import Searchbar from './Components/Searchbar';
 import RecipeList from './Components/RecipeList';
 import GlobalReducer from './GlobalReducer';
 
-import './App.css';
-
 require('dotenv').config();
 
 export const GlobalContext = React.createContext();
@@ -20,8 +18,11 @@ function App() {
     return (
         <GlobalContext.Provider value={{ dispatch: dispatch, state: state }}>
             <Header />
+            <div className="column flex-center">
             <Searchbar />
             <RecipeList />
+            </div>
+
         </GlobalContext.Provider>
     );
 }

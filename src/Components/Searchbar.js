@@ -1,5 +1,4 @@
 import React from 'react';
-import './Searchbar.css';
 import { useState, useEffect, useRef, useContext } from 'react';
 import { GlobalContext } from '../App';
 

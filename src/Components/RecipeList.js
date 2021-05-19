@@ -1,7 +1,6 @@
 import React from 'react';
 import { useContext, useEffect, useState, useRef } from 'react';
 import { GlobalContext } from '../App';
-import './RecipeList.css';
 
 require('dotenv').config();
 
@@ -78,7 +77,7 @@ const RecipeList = () => {
             .catch((error) => console.log(error));
     };
     return (
-        <>
+        <div className="column flex-start">
             {fetchedRecipes.length > 0 ? (
                 <div className='recipelist'>
                     {fetchedRecipes.map((recipe, i) => {
@@ -139,7 +138,7 @@ const RecipeList = () => {
                     recipes
                 </h1>
             )}
-            {fetchedRecipes.length > 0 ? (
+            {fetchedRecipes.length > 0 && (
                 searchNumber < 100 ? (
                     <button
                         className='loadmorebtn'
@@ -150,11 +149,9 @@ const RecipeList = () => {
                 ) : (
                     <button className='grayedbtn'>Load more recipes</button>
                 )
-            ) : (
-                <p></p>
             )}
             <h4 id='loading'>Loading...</h4>
-        </>
+        </div>
     );
 };
 
