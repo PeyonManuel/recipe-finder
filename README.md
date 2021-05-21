@@ -1,2 +1,2 @@
-Recipe finder site, write down your ingredients and the app will give you recipes!
+Recipe finder site, write down your ingredients and the app will give you recipes! \N
 Live Site: https://modest-meitner-64dce8.netlify.app/
